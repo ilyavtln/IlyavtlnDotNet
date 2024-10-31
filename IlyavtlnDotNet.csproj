@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>IlyavtlnDotNet</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Ilyavtln</Authors>
+		<Description>.Net library for game creation and math operations</Description>
+		<PackageTags>math utilities game engine</PackageTags>
+		<Copyright>Copyright © 2024</Copyright>
+		<RepositoryUrl>https://github.com/IlyavtlnDotNet</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+	</PropertyGroup>
+	<ItemGroup>
+        <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+		<None Include="docs\LICENSE.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>
